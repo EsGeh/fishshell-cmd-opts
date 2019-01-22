@@ -16,7 +16,7 @@ For example like so:
 
 ## Usage:
 
-In your script, just "source" the <./cmd_args.fish>, e.g. like so
+In your script, just "source" the [./cmd_args.fish](./cmd_args.fish), e.g. like so
 
 	...
 	source $FISH_UTILS/cmd_args.fish
@@ -24,7 +24,7 @@ In your script, just "source" the <./cmd_args.fish>, e.g. like so
 
 (where `$FISH_UTILS` is to be replaced by the path where you copied the repo to)
 
-For a usage example, see <./example/example.fish>
+For a usage example, see [./example/example.fish](./example/example.fish)
 
 # Contributing
 
