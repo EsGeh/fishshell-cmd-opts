@@ -17,6 +17,8 @@ For example like so:
 	$ git clone git@github.com:EsGeh/fishshell-cmd-opts.git
 	$ cd ..
 
+! Better to clone a specific commit, to prevent your code from breaking if this repository is updated !
+
 ## Usage:
 
 In your script, just "source" the [./cmd_args.fish](./cmd_args.fish), e.g. like so
