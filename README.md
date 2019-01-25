@@ -1,6 +1,7 @@
 # fishshell-cmd-opts
 
 Utilities for elegant handling of command line options for fish shell scripts.
+Extends the fish 'argparse' command. With every option you can append a description, which is used in the (automatic) '--help' info.
 
 ## Installation
 

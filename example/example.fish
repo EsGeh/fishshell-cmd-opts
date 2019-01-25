@@ -7,9 +7,11 @@ source (dirname (readlink -m (status filename)))/utils/fishshell-cmd-opts//cmd_a
 # default value:
 set name "unknown entity"
 
+# entries must be valid arguments for argparse, with '/<option_info>' appended
 set options_descr \
 	"h/help/print help" \
-	"n/name=/your name. default '$name'"
+	"n/name=/your name. default: '$name'" \
+	"x-only-long-option/does nothing"
 
 #################################################
 # functions
