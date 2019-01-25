@@ -3,6 +3,8 @@
 Utilities for elegant handling of command line options for fish shell scripts.
 Extends the fish 'argparse' command. With every option you can append a description, which is used in the (automatic) '--help' info.
 
+For a usage example, see [./example/example.fish](./example/example.fish)
+
 ## Installation
 
 Just copy the files into some directory (e.g. into `$FISH_UTILS/`)
