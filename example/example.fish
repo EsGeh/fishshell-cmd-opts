@@ -42,5 +42,10 @@ else
 	if set -q _flag_name
 		set name $_flag_name
 	end
-	echo "Hello $name. Have a nice day!"
 end
+
+#################################################
+# actual script
+#################################################
+
+echo "Hello $name. Have a nice day!"
