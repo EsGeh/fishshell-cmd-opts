@@ -7,27 +7,23 @@ For a usage example, see [./example/example.fish](./example/example.fish)
 
 ## Installation
 
-Just copy the files into some directory (e.g. into `$FISH_UTILS/`)
+### On arch linux: install using pacman
 
-For example like so:
+- clone the repository
+- create package for pacman:
 
-	$ set FISH_UTILS <somepath>
-	$ mkdir -p $FISH_UTILS
-	$ cd $FISH_UTILS
-	$ git clone git@github.com:EsGeh/fishshell-cmd-opts.git
-	$ cd ..
+		$ makepkg
 
-! Better to clone a specific commit, to prevent your code from breaking if this repository is updated !
+- install it:
+
+		$ makepkg -i
+
+### copy script into fish config dir
+
+- clone the repository
+- copy `./cmd_args.fish` into some fish config dir (see <https://fishshell.com/docs/current/index.html#initialization>). Recommendation: `$__fish_data_dir/vendor_conf.d/`.
 
 ## Usage:
-
-In your script, just "source" the [./cmd_args.fish](./cmd_args.fish), e.g. like so
-
-	...
-	source $FISH_UTILS/cmd_args.fish
-	...
-
-(where `$FISH_UTILS` is to be replaced by the path where you copied the repo to)
 
 For a usage example, see [./example/example.fish](./example/example.fish)
 

@@ -1,0 +1,4 @@
+# used for packaging
+*.pkg.tar.xz
+/pkg/
+/src/
