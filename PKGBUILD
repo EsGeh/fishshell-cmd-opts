@@ -1,5 +1,5 @@
 pkgname=fishshell-cmd-opts
-pkgver=0.1
+pkgver=0.2
 pkgrel=1
 pkgdesc="utilities for elegant handling of command line options in fish shell scripts"
 arch=("any")

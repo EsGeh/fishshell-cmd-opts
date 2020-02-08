@@ -15,7 +15,7 @@ function options_descr_to_argparse
 	for o in $argv
 		set opt_parsed (string match -r -- "$opt_descr_regex" "$o")
 		if test "$status" -ne 0
-			error "syntax error"
+			echo "syntax error"
 			return 1
 		end
 		echo (string join -- '' $opt_parsed[2..5])
@@ -29,7 +29,7 @@ function options_descr_to_info_string
 	for o in $argv
 		set opt_parsed (string match -r -- "$opt_descr_regex" "$o")
 		if test "$status" -ne 0
-			error "syntax error"
+			echo "syntax error"
 			return 1
 		end
 		set opt_parsed[6] (echo "$opt_parsed[6]" | sed 's/:/||||/')
